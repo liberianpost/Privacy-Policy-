@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #e9ecef;
+}
+
+header h1 {
+    color: #2c3e50;
+    font-size: 2.2em;
+    margin-bottom: 10px;
+}
+
+.last-updated {
+    color: #6c757d;
+    font-size: 1.1em;
+}
+
+main section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #2c3e50;
+    font-size: 1.6em;
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #e9ecef;
+}
+
+h3 {
+    color: #34495e;
+    font-size: 1.3em;
+    margin: 20px 0 10px 0;
+}
+
+p {
+    margin-bottom: 15px;
+    font-size: 1.05em;
+}
+
+ul {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+li {
+    margin-bottom: 8px;
+    font-size: 1.05em;
+}
+
+.acknowledgement {
+    background: #f8f9fa;
+    padding: 25px;
+    border-radius: 8px;
+    border-left: 4px solid #3498db;
+}
+
+.company-info {
+    background: white;
+    padding: 20px;
+    border-radius: 6px;
+    margin-top: 20px;
+    border: 1px solid #e9ecef;
+}
+
+.company-info h3 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+strong {
+    color: #2c3e50;
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin: 10px;
+        padding: 15px;
+    }
+    
+    header h1 {
+        font-size: 1.8em;
+    }
+    
+    h2 {
+        font-size: 1.4em;
+    }
+}
